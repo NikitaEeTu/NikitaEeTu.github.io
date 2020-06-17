@@ -1,0 +1,47 @@
+body{
+    color: #16a085;
+    background-color: #2c3e50;
+    font-family: 'Sriracha', cursive;
+}
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+}
+.container{
+width: 400px;
+height: 400px;
+margin: 0 auto;
+text-align: center;
+}
+.player1 {
+    margin-right: 20px;
+    font-size: 30px;
+}
+.player2 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+img{
+    display:inline-block;
+    width: 100px;
+    margin-top: 100px;
+}
+.img1{
+    margin-right: 60px;
+}
+button{
+    background-color:#16a085 ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    font-family: 'MuseoModerno', cursive;
+    height: 50px;
+    width: 250px;
+    padding: 5px 10px;
+    
+}
+
