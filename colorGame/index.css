@@ -1,0 +1,43 @@
+body {
+    background-color: #34495e;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+    color: #f6e58d;
+    font-family: 'Fjalla One', sans-serif;
+}
+.container{
+    text-align: center;
+    margin: 0px auto;
+    width: 700px;
+    height: 400px;
+    
+}
+button {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.red {
+    background-color: #e74c3c;
+}
+.blue {
+    background-color: #2980b9;
+}
+.green {
+    background-color: #27ae60;
+}
+.yellow {
+    background-color: #f1c40f;
+}
+.press {
+    box-shadow: 0px 2px 4px 0px #7f8c8d;
+    opacity: 0.5;
+    background-color: #7f8c8d;
+}
