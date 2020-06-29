@@ -1,0 +1,75 @@
+body{
+    font-family: 'Notable', sans-serif;
+}
+.gameBoard{
+    width: 800px;
+    height: 300px;
+    border: 4px black solid;
+    margin: 100px auto 0px auto;
+}
+.character {
+    height: 100px;
+    width: 60px;
+    background-image: url("https://image.flaticon.com/icons/svg/145/145271.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 240px;
+    display: inline-block;
+}
+.characterJumping{
+    animation: characterJump 500ms linear;
+}
+.stones{
+    position: relative;
+    top:210px;
+    left: 670px;
+    height: 50px;
+    width: 40px;
+    background-image: url("https://image.flaticon.com/icons/svg/861/861783.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    animation: stones 2s infinite linear;
+}
+@keyframes stones{
+0%{left:670px ;}
+100%{left: -80px;}
+}
+@keyframes characterJump{
+    0%{top: 220px}
+    30%{top: 170px;}
+    75%{top: 170px;}
+    100%{top: 220px;}
+}
+.score{
+    height: 2px;
+    width: 20px;
+    position: relative;
+    left: 700px;
+    margin: 0px;
+    font-size: 18px;
+}
+.gameResults{
+    width: 800px;
+    height: 100px;
+    margin: 100px auto 0px auto;
+    border: 4px black solid;
+}
+.resultsTitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.restartBox {
+    height: 10px;
+    width: 200px;
+    margin: 50px auto 0px auto;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #2c3e50;
+    border: none;
+    color: #bdc3c7;
+    font-family: 'Notable', sans-serif;
+}
+
